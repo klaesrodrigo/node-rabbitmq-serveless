@@ -5,12 +5,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon --es-module-specifier-resolution=node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^4.2.2",
-    "pino": "^7.5.1"
+    "pino": "^7.5.1",
+    "pino-pretty": "^7.3.0"
   },
   "devDependencies": {
     "eslint": "^8.4.1",
